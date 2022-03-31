@@ -28,7 +28,7 @@
 - 컴포넌트 추출 (Extraction) => 여러곳에서 사용되거나 복잡한경우
 ```
 
-### component Life Cycle
+#### component Life Cycle
 
 ```
 - constructor => state 초기화 및 메서드 바인딩
@@ -37,7 +37,7 @@
 - Functional Component => hook으로 대부분 구현 가능
 ```
 
-### event
+#### event
 
 ```
 - 합성 이벤트 => 인터페이스는 같지만 직접 대응되지 않음
@@ -45,7 +45,7 @@
 - return false => 리액트에서는 e.preventDefault()
 ```
 
-### conditional Rendering
+#### conditional Rendering
 
 ```
 - if => if(condition){return A} else {return B}
@@ -54,7 +54,7 @@
 - 아예 그리지 않고 싶을 때 => return null;
 ```
 
-### list
+#### list
 
 ```
 - map => 배열의 개별 요소를 순회
@@ -63,7 +63,7 @@
 - key props => key는 props로 전달 불가능
 ```
 
-### form
+#### form
 
 ```
 - Controlled Component => input value를 state로 관리
